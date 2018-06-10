@@ -1,0 +1,10 @@
+---
+name:copy
+hosts:all
+become:true
+become-user:root
+
+task:
+   -name:copy
+     copy:src=/home/ubuntu/.m2/repository/com/example/Test2/1.0-SNAPSHOT/Test2-1.0-SNAPSHOT.jar
+          dest:=/home/ubuntu/ansible_jar
