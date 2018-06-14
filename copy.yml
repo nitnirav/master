@@ -1,6 +1,6 @@
 ---
 name:copy
-hosts:all
+hosts:localhost
 become:true
 become-user:root
 
