@@ -1,7 +1,7 @@
 public class JavaExample {
 
     public static void main(String[] args) {
-        double[] arr = {29, 12.89, 16.5, 200, 13.7};
+        double[] arr = {29, 13.89, 16.5, 200, 13.7};
         double total = 0;
 
         for(int i=0; i<arr.length; i++){
